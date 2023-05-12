@@ -37,5 +37,5 @@ function adicionaContato() {
 function contaContatos() {
     const contador = document.querySelector('.numero-contatos');
 
-    contador.innerHTML = `Você tem${nomes.length} contatos.`;
+    contador.innerHTML = `Você tem ${nomes.length} ${ nomes.length == 1 ? 'contato' : 'contatos'}`;
 }
